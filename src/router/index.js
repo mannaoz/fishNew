@@ -4,6 +4,11 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
   const routes = [
+    {
+      path:'/',
+      name:'home',
+      redirect: '/txnews'
+    },
   {
     path: '/txnews',
     name: 'txnews',
